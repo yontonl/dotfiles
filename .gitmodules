@@ -1,0 +1,17 @@
+[submodule "zsh-custom/plugins/conda-zsh-completion"]
+	path = zsh-custom/plugins/conda-zsh-completion
+	url = https://github.com/conda-incubator/conda-zsh-completion
+[submodule "zsh-custom/plugins/zsh-syntax-highlighting"]
+	path = zsh-custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "zsh-custom/plugins/zsh-autosuggestions"]
+	path = zsh-custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "ohmyzsh"]
+	path = ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+	ignore = dirty
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty

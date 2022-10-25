@@ -1,0 +1,35 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+      force: true
+    shell:
+      stdout: true
+      stderr: true
+
+- clean: ['~']
+
+- link:
+    ~/.oh-my-zsh: ohmyzsh
+    ~/.oh-my-zsh/custom: zsh-custom
+    ~/.cargo/:
+      glob: true
+      path: cargo/*
+    ~/.config/:
+      glob: true
+      path: config/*
+    ~/:
+      glob: true
+      path: dotconf/*
+      prefix: '.'
+
+- create:
+  - ~/.cargo
+  - ~/.config
+  - ~/.local
+  - ~/.local/bin
+
+- shell:
+  - [curl -sS https://starship.rs/install.sh | sh -s -- --yes --bin-dir $HOME/.local/bin, Installing zsh theme starship... ]
+  - [curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y, Installing rust toolchain... ]
+  - [~/.cargo/bin/cargo install bandwhich bat du-dust exa fd-find grex hyperfine procs ripgrep tealdeer ytop zellij]
