@@ -1,3 +1,4 @@
+EDITOR=code
 PREFIX="$HOME/.local"
 PATH="$PREFIX/bin:$PATH"
 
