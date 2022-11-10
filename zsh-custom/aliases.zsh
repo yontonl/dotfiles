@@ -1,5 +1,4 @@
 if hash exa 2>/dev/null; then
-    alias exa='exa --icons'
     alias ls='exa'
     alias l='exa -l --all --group-directories-first --git'
     alias ll='exa -l --all --all --group-directories-first --git'
