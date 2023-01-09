@@ -20,6 +20,8 @@
     ~/.config/:
       glob: true
       path: config/*
+    ~/.m2/settings.xml: m2/settings.xml
+    ~/.graddle/init.gradle: graddle/init.gradle
     ~/:
       glob: true
       path: dotconf/*

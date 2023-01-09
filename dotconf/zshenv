@@ -1,5 +1,6 @@
 EDITOR=code
 PREFIX="$HOME/.local"
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="$PREFIX/bin:$PATH"
 
 PROJECT_PATHS=(~/source ~/program ~/project)
