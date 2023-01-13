@@ -39,6 +39,5 @@
   - [curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y, Installing rust toolchain... ]
   - [curl -s "https://get.sdkman.io" | bash, Installing sdkman...]
   - [source "$HOME/.sdkman/bin/sdkman-init.sh" && sdk install java 17.0.5-zulu, Installing JDK using sdkman...]
-  - [source "$HOME.sdkman/bin/sdkman-init.sh" && sdk install java 8.0.352-zulu, Installing JDK using sdkman...]
-  - [curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh && bash ./Mambaforge-Linux-x86_64.sh - -bp ~/.local/share/mambaforge && rm -f ./Mambaforge-Linux-x86_64.sh, Installing mambaforge...]
+  - [source "$HOME/.sdkman/bin/sdkman-init.sh" && sdk install java 8.0.352-zulu, Installing JDK using sdkman...]
   - [~/.cargo/bin/cargo install bandwhich bat du-dust exa fd-find grex hyperfine procs ripgrep tealdeer ytop zellij, Installing rust commandline tools...]
